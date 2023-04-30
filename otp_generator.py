@@ -5,7 +5,7 @@ def OTP(n):
     return rd.randint(range_start, range_end)
 def start():
     print("-"*(5))
-    ch=input("Numeric  OPT N/A:").upper()
+    ch=input("Numeric  OPT N:").upper()
     if ch=='N':
         numOTP()
     else:
